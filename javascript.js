@@ -214,10 +214,10 @@ function abrir() {
     document.getElementById("invitacion").classList.remove("hide");
     audio.play();
   }, 2500);
+
   setTimeout(function () {
     document.getElementById("names").classList.remove("hide");
     document.getElementById("names").classList.add("animate__zoomIn");
-    audio.play();
   }, 3000);
 }
 
