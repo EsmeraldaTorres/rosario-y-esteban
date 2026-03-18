@@ -20,7 +20,7 @@ const eventData = {
   receptionName: "Salón Campestre 'La Fuente'",
   receptionDirection:
     "Carretera Antigua Coatepec- Xalapa Km. 1, La Florida, 91517 Coatepec, Ver.",
-  receptionMaps: "     bbbbbbhttps://maps.app.goo.gl/QRzoGh4v5N8An5pR6",
+  receptionMaps: "https://maps.app.goo.gl/dhWKqm3XCnScoKPy9",
   itinerary: [
     {
       name: "Ceremonia religiosa",
@@ -37,19 +37,19 @@ const eventData = {
     {
       name: "Ceremonia Civil",
       hour: "2:30pm",
-      img: "./assets/img/comida.png",
+      img: "./assets/img/civil.png",
       animation: "animate__rotateInDownRight",
     },
     {
       name: "Cocktail",
       hour: "3:00pm",
-      img: "./assets/img/fiesta.png",
+      img: "./assets/img/cocktail.png",
       animation: "animate__swing animate__repeat-2",
     },
     {
       name: "Comida",
       hour: "4:00pm",
-      img: "./assets/img/fiesta.png",
+      img: "./assets/img/comida.png",
       animation: "animate__swing animate__repeat-2",
     },
     {
