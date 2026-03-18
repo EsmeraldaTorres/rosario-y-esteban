@@ -279,20 +279,44 @@ var x = setInterval(function () {
 // carousel
 
 const video = document.getElementById("miVideo");
+let isPlaying = false;
 
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        video.play();
-      } else {
+      if (entry.isIntersecting && !isPlaying) {
+        video
+          .play()
+          .then(() => {
+            isPlaying = true;
+          })
+          .catch(() => {});
+      } else if (!entry.isIntersecting && isPlaying) {
         video.pause();
+        isPlaying = false;
       }
     });
   },
-  {
-    threshold: 0.6,
-  }
+  { threshold: 0.3 }
 );
 
 observer.observe(video);
+
+// const observer = new IntersectionObserver(
+//   (entries) => {
+//     entries.forEach((entry) => {
+//       if (entry.isIntersecting) {
+//         video.play().catch((error) => {
+//           console.log("Autoplay bloqueado:", error);
+//         });
+//       } else {
+//         video.pause();
+//       }
+//     });
+//   },
+//   {
+//     threshold: 0.3,
+//   }
+// );
+
+// observer.observe(video);
