@@ -6,7 +6,7 @@ const eventData = {
   dateMonthComplete: "Junio",
   dateYear: "2026",
   ticketsNumber: "1",
-  //   fatherShe: "Rogelio Macías Ruiz",
+  fatherShe: "Esteban Alfredo Jácome Ávila",
   motherShe: "María de Lourdes Márquez González",
   fatherHe: "Juan de Dios Ponce Salguero ",
   motherHe: "María del Rosario Dávila Barrientos",
@@ -110,7 +110,7 @@ setText("year1", eventData.dateYear);
 );
 
 // Padres
-// setText("fatherShe", eventData.fatherShe);
+setText("fatherShe", eventData.fatherShe);
 setText("motherShe", eventData.motherShe);
 setText("fatherHe", eventData.fatherHe);
 setText("motherHe", eventData.motherHe);
