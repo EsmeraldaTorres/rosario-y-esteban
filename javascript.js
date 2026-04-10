@@ -81,9 +81,9 @@ const eventData = {
   dressCodeImg: "./assets/img/nueva-imagen.png",
   limitConfirmation: "20 de Abril",
   linkConfirmation:
-    "https://wa.me/522285935668?text=Hola%20Arlette!%20Quiero%20confirmar%20mi%20asistencia%20a%20la%20boda%20de%20Rosario%20y%20Esteban.%20Recibí%201%20pase.",
+    "https://wa.me/522281505318?text=Hola!%20Quiero%20confirmar%20mi%20asistencia%20a%20la%20boda%20de%20Rosario%20y%20Esteban.%20Recibí%201%20pase.",
   linkDeny:
-    "https://wa.me/522285935668?text=Hola%20Arlette!%20Lamentablemente%20no%20podré%20asistir%20a%20la%20boda%20de%20Rosario%20y%20Esteban.%20Recibí%201%20pase.",
+    "https://wa.me/522281505318?text=Hola!%20Lamentablemente%20no%20podré%20asistir%20a%20la%20boda%20de%20Rosario%20y%20Esteban.%20Recibí%201%20pase.",
 };
 
 // Helper para asignar texto
