@@ -79,7 +79,7 @@ const eventData = {
   codeGalery: "MX8adf83b4adb",
   linkGalery: "https://www.wedshoots.com/mx?albumId=MX883b4adb",
   dressCodeImg: "./assets/img/nueva-imagen.png",
-  limitConfirmation: "20 de Abril",
+  limitConfirmation: "15 de Mayo",
   linkConfirmation:
     "https://wa.me/522281505318?text=Hola!%20Quiero%20confirmar%20mi%20asistencia%20a%20la%20boda%20de%20Rosario%20y%20Esteban.%20Recibí%201%20pase.",
   linkDeny:
